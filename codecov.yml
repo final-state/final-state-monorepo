@@ -1,0 +1,24 @@
+coverage:
+  status:
+    project:
+      final-state:
+        flags: final-state
+      final-state-rx:
+        flags: final-state-rx
+      final-state-logger:
+        flags: final-state-logger
+      react-final-state:
+        flags: react-final-state
+flags:
+  final-state:
+    paths:
+      - packages/final-state
+  final-state-rx:
+    paths:
+      - packages/final-state-rx
+  final-state-logger:
+    paths:
+      - packages/final-state-logger
+  react-final-state:
+    paths:
+      - packages/react-final-state

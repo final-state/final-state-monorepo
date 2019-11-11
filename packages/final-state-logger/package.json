@@ -1,0 +1,56 @@
+{
+  "name": "final-state-logger",
+  "version": "1.0.1",
+  "author": "yuanqiulee@gmail.com",
+  "main": "dist/index.js",
+  "module": "dist/final-state-logger.esm.js",
+  "typings": "dist/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/final-state/final-state-logger"
+  },
+  "homepage": "https://final-state.github.io/final-state-logger",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "lint": "eslint -c .eslintrc.js --ext ts src",
+    "pub": "bash scripts/pub.sh",
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --coverage"
+  },
+  "peerDependencies": {
+    "date-fns": "^2.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.15",
+    "@typescript-eslint/eslint-plugin": "^2.1.0",
+    "@typescript-eslint/parser": "^2.1.0",
+    "date-fns": "^2.0.1",
+    "eslint": "6.1.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "final-state": "^1.1.1",
+    "husky": "^2.4.1",
+    "immer": "^3.2.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "tsdx": "^0.7.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "@types/deep-diff": "^1.0.0",
+    "deep-diff": "^1.0.2"
+  }
+}
