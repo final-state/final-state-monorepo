@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "final state workspace",
   "main": "index.js",
-  "repository": "https://github.com/final-state/monorepo.git",
+  "repository": "https://github.com/final-state/final-state-monorepo.git",
   "author": "yuanqiulee@gmail.com",
   "license": "MIT",
   "private": true,
