@@ -23,7 +23,7 @@
     "prepublish": "node scripts/update-readme.js"
   },
   "peerDependencies": {
-    "final-state": "^1.1.3",
+    "final-state": "^2.0.0-alpha.0",
     "rxjs": "^6.0.0"
   },
   "devDependencies": {
