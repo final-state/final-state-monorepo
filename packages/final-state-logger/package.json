@@ -1,6 +1,6 @@
 {
   "name": "final-state-logger",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.1-alpha.0",
   "author": "yuanqiulee@gmail.com",
   "main": "dist/index.js",
   "module": "dist/final-state-logger.esm.js",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/deep-diff": "^1.0.0",
     "date-fns": "^2.7.0",
-    "final-state": "^2.0.0-alpha.0"
+    "final-state": "^2.0.1-alpha.0"
   },
   "dependencies": {
     "deep-diff": "^1.0.2"
