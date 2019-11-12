@@ -1,8 +1,9 @@
-[![Build Status](https://travis-ci.com/final-state/react-final-state.svg?branch=master)](https://travis-ci.com/final-state/react-final-state)
-[![codecov.io](https://codecov.io/gh/final-state/react-final-state/branch/master/graph/badge.svg)](https://codecov.io/gh/final-state/react-final-state)
-[![Known Vulnerabilities](https://snyk.io/test/github/final-state/react-final-state/badge.svg)](https://snyk.io/test/github/react-final-state/final-state)
-[![minified + gzip](https://badgen.net/bundlephobia/minzip/react-final-state@1.2.1-alpha.1-alpha.0)](https://bundlephobia.com/result?p=react-final-state@1.2.1-alpha.1-alpha.0)
+[![Build Status](https://travis-ci.com/final-state/final-state-monorepo.svg?branch=master)](https://travis-ci.com/final-state/final-state-monorepo)
+[![codecov.io](https://codecov.io/gh/final-state/final-state-monorepo/branch/master/graph/badge.svg)](https://codecov.io/gh/final-state/final-state-monorepo)
+[![Known Vulnerabilities](https://snyk.io/test/github/final-state/final-state-monorepo/badge.svg)](https://snyk.io/test/github/final-state/final-state-monorepo)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![minified + gzip](https://badgen.net/bundlephobia/minzip/react-final-state@1.2.1-alpha.1-alpha.1-alpha.1-alpha.1-alpha.0)](https://bundlephobia.com/result?p=react-final-state@1.2.1-alpha.1-alpha.1-alpha.1-alpha.1-alpha.0)
 
 # react-final-state
 

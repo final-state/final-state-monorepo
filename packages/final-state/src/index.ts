@@ -108,7 +108,7 @@ class StoreClass<T = any> implements Store<T> {
   public constructor(
     initialState: T,
     actions: ActionMap,
-    name: string = `NO_NAME_STORE_${Date.now()}`,
+    name = `NO_NAME_STORE_${Date.now()}`,
   ) {
     this.state = initialState;
     this.actions = actions;

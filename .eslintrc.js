@@ -3,10 +3,11 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'airbnb-base',
+    'react-app',
     'plugin:prettier/recommended',
   ],
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: '11',
     sourceType: 'module',
   },
   rules: {
@@ -15,6 +16,7 @@ module.exports = {
     '@typescript-eslint/explicit-function-return-type': 'off',
     'no-dupe-class-members': 'off',
     'import/no-extraneous-dependencies': 'off',
+    'import/prefer-default-export': 'off',
   },
   settings: {
     'import/resolver': {

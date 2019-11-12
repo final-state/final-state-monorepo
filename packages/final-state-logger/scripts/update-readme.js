@@ -1,7 +1,11 @@
 const { readFile, writeFile } = require('fs');
-const { argv } = require('process');
+const { env } = require('process');
 
-const version = argv[2];
+const { npm_package_version: version, npm_package_name: name } = env;
+
+if (version === undefined) {
+  throw '未知版本号';
+}
 
 readFile('./README.md', (err1, buf1) => {
   if (err1) {
@@ -10,8 +14,8 @@ readFile('./README.md', (err1, buf1) => {
   const text = buf1
     .toString()
     .replace(
-      /final-state-logger@\d+\.\d+\.\d+/g,
-      `final-state-logger@${version}`,
+      new RegExp(`${name}@\\d+\\.\\d+\\.\\d+`, 'g'),
+      `${name}@${version}`,
     );
 
   writeFile('./README.md', text, err2 => {
