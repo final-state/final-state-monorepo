@@ -3,7 +3,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/final-state/final-state-monorepo/badge.svg)](https://snyk.io/test/github/final-state/final-state-monorepo)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
-[![minified + gzip](https://badgen.net/bundlephobia/minzip/final-state-logger@2.0.0-alpha.0)](https://bundlephobia.com/result?p=final-state-logger@2.0.0-alpha.0)
+[![minified + gzip](https://badgen.net/bundlephobia/minzip/final-state-logger@2.0.1-alpha.0-alpha.0)](https://bundlephobia.com/result?p=final-state-logger@2.0.1-alpha.0-alpha.0)
 
 # final-state-logger
 
