@@ -1,6 +1,6 @@
 {
   "name": "react-final-state",
-  "version": "1.2.1-alpha.1",
+  "version": "2.0.0-alpha.0",
   "author": "yuanqiulee@gmail.com",
   "main": "dist/index.js",
   "module": "dist/react-final-state.esm.js",
@@ -23,17 +23,16 @@
     "prepublish": "node scripts/update-readme.js"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "final-state": "^1.1.3"
+    "final-state": "^1.1.3",
+    "react": "^16.8.0"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^1.0.4",
     "@types/react": "^16.8.22",
     "@types/react-dom": "^16.8.4",
-    "final-state": "^1.1.3",
+    "final-state": "^2.0.0-alpha.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-test-renderer": "^16.8.6"
-  },
-  "dependencies": {}
+  }
 }
