@@ -17,7 +17,7 @@
   ],
   "scripts": {
     "lint": "../../node_modules/.bin/eslint -c ../../.eslintrc.js --ext ts src",
-    "prepublish": "yarn lint && node scripts/update-readme.js",
+    "prepublish": "node scripts/update-readme.js",
     "start": "tsdx watch",
     "build": "tsdx build",
     "test": "tsdx test --coverage"
