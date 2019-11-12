@@ -17,10 +17,10 @@
   ],
   "scripts": {
     "lint": "../../node_modules/.bin/eslint -c ../../.eslintrc.js --ext ts src",
-    "prepublish": "node scripts/update-readme.js",
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --env=jsdom --coverage"
+    "start": "../../node_modules/.bin/tsdx watch",
+    "build": "../../node_modules/.bin/tsdx build",
+    "test": "../../node_modules/.bin/tsdx test --env=jsdom --coverage",
+    "prepublish": "node scripts/update-readme.js"
   },
   "peerDependencies": {
     "react": "^16.8.0",

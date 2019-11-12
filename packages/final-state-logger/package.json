@@ -17,10 +17,10 @@
   ],
   "scripts": {
     "lint": "../../node_modules/.bin/eslint -c ../../.eslintrc.js --ext ts src",
-    "prepublish": "node scripts/update-readme.js",
-    "start": "tsdx watch",
-    "build": "tsdx build",
-    "test": "tsdx test --coverage"
+    "start": "../../node_modules/.bin/tsdx watch",
+    "build": "../../node_modules/.bin/tsdx build",
+    "test": "../../node_modules/.bin/tsdx test --coverage",
+    "prepublish": "node scripts/update-readme.js"
   },
   "peerDependencies": {
     "date-fns": "^2.0.0",
