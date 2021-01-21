@@ -26,6 +26,6 @@
     "rxjs": "^6.5.3"
   },
   "dependencies": {
-    "immer": "^5.0.0"
+    "immer": "^8.0.1"
   }
 }
